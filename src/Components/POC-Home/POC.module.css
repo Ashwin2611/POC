@@ -1,0 +1,38 @@
+.ProductContainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display:flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.products {
+  height: 100vh;
+  width: 40vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 10px;
+  /* border: 1px solid red; */
+  float: right;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.Prod{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.List{
+  height: 70vh;
+  align-items: center;
+  margin-top:3rem;
+  /* overflow: auto; */
+}
+
+.AddItemicon{
+  /* border:1px solid black; */
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
